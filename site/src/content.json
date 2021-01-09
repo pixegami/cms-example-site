@@ -1,4 +1,6 @@
 {
   "title": "Welcome to Cyclone CMS!",
-  "body": "Cyclone is a headless and serverless CMS platform."
+  "body": "Cyclone is a headless and serverless CMS platform.",
+  "footer": "You can write whatever you want",
+  "headerColor": "text-yellow-400"
 }

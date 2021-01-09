@@ -51,7 +51,9 @@ function App() {
   return (
     <div className="container mx-auto bg-gray-800 max-w-screen-sm mt-6 p-6 rounded-md">
       <header className="">
-        <h1 className="text-2xl font-bold text-white text-center mb-4">
+        <h1
+          className={`text-2xl font-bold ${cycloneContent.headerColor} text-center mb-4`}
+        >
           {cycloneContent.title}
         </h1>
         <p className="text-gray-300 text-lg mb-4 text-center">
@@ -59,6 +61,11 @@ function App() {
         </p>
         {contentElement}
       </header>
+      <footer>
+        <p className="text-gray-600 text-sm mb-4 mt-4 text-center">
+          {cycloneContent.footer}
+        </p>
+      </footer>
     </div>
   );
 }
